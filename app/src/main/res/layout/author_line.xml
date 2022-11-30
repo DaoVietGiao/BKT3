@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageviewThumb"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <TextView
+        android:id="@+id/textViewM1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageviewThumb"
+        android:text="Tên:"
+        android:textColor="#1E90FF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewM2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewM1"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/imageviewThumb"
+        android:text="Năm sinh:"
+        android:textColor="#1E90FF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewM3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewM2"
+        android:layout_marginTop="11dp"
+        android:layout_toRightOf="@id/imageviewThumb"
+        android:text="Năm mất:"
+        android:textColor="#1E90FF"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/textviewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textViewM1"
+        android:paddingLeft="5dp"
+        android:text="Ten"
+        android:textColor="#1E90FF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textviewNamSinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textviewName"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/textViewM2"
+        android:paddingLeft="5dp"
+        android:text="Nam sinh"
+        android:textColor="#1E90FF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textviewNamMat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textviewNamSinh"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="11dp"
+        android:layout_toRightOf="@id/textViewM3"
+        android:paddingLeft="5dp"
+        android:text="Nam mat"
+        android:textColor="#1E90FF"
+        android:textSize="24sp" />
+
+</RelativeLayout>
